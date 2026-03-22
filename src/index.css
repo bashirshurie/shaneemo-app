@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-bg: #11131a; /* Very dark blue/black for main background */
+  --color-dark-surface: #1a1d29; /* Slightly lighter for sidebar/cards */
+  --color-primary-accent: #ff52a2; /* The bright pink from the screenshot */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #9ca3af;
+}
+
+@layer base {
+  body {
+    @apply bg-dark-bg text-text-primary font-sans antialiased;
+  }
+}
+
+/* Custom scrollbar to match the dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #2d3142;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f4458;
+}
