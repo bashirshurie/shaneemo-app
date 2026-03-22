@@ -1,21 +1,29 @@
-<<<<<<< HEAD
-# React + Vite
+# 🎬 SHANEEMO
+**A premium, cinematic experience.**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SHANEEMO is a high-performance web application designed to curate and discover global cinema. Built with a "Midnight Spectrum" aesthetic and powered by modern React components, this platform provides a seamless, responsive interface for movie enthusiasts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 The Tech Stack
+* **Frontend:** React.js, Tailwind CSS 
+* **State Management:** React Hooks
+* **API:** The Movie Database (TMDB) API
+* **Tooling:** Vite, Git
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Core Features
+* **Cinematic UI:** Custom "Electric Purple" and "Midnight Blue" theme tailored for deep-focus browsing.
+* **Responsive Architecture:** Mobile-first design that adapts from a sidebar-centric desktop view to a thumb-friendly mobile navigation.
+* **Real-time Exploration:** Live integration with the TMDB API for trending, searching, and detailed movie insights.
+* **Secure Workflow:** Professional environment configuration using secure API key management and Git best practices.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# shaneemo-app
-Shaneemo App build React and Tailwindcss
->>>>>>> c96dd441fefa02d0a19c1d059214b89f4701fba7
+## 🛠 Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- NPM or Yarn
+- A free TMDB API Key
